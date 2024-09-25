@@ -28,7 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
         pip install pycountry
-        pip instal pycountry_convert
+        pip install pycountry_convert
     - name: Test with pytest
       run: |
         pytest
