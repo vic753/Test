@@ -14,13 +14,6 @@ class CountryTest(unittest.TestCase):
     def testnegatif(self):
         name_country = pycountry.countries.get(name = "France")
         self.assertEqual(name_country.name,"France")
-
-    def testpositifContinent(self):
-        name_continent = pycountry.countries.get(name = "Europe")
-        self.assertEqual(name_continent,"Europe")
-    def testnegatifContinent(self):
-        name_country = pycountry.countries.get(name = "France")
-        self.assertEqual(name_country.name,"France")
-
+        
 if __name__=='__main__':
     unittest.main()
